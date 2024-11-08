@@ -1,0 +1,38 @@
+/* styles.module.css */
+
+.container {
+    @apply flex flex-col items-center p-6 bg-gray-200 min-h-screen;
+  }
+  
+  .header {
+    @apply text-3xl font-bold mb-6;
+  }
+  
+  .buttonGroup {
+    @apply flex space-x-4 mb-8;
+  }
+  
+  .button {
+    @apply px-4 py-2 text-white rounded-lg shadow-lg;
+  }
+  
+  .buttonBlue {
+    @apply bg-blue-500;
+  }
+  
+  .buttonGreen {
+    @apply bg-green-500;
+  }
+  
+  .buttonRed {
+    @apply bg-red-500;
+  }
+  
+  .content {
+    @apply w-full max-w-full p-6 bg-white rounded-lg shadow-md;
+  }
+  
+  .placeholderText {
+    @apply text-gray-500;
+  }
+  

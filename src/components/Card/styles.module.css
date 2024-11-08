@@ -1,0 +1,29 @@
+.container {
+    @apply relative max-w-fit mx-auto rounded-lg py-8 px-6 overflow-hidden shadow-lg bg-white;
+  }
+  
+  .maskimg {
+    -webkit-mask-image: url('../../assets/img/svg/IMGG.png');
+    mask-image: url('../../assets/img/svg/IMGG.png');
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }
+  
+  .img {
+    @apply h-auto object-cover w-[500px];
+  }
+  
+  .titleBox {
+    @apply absolute bottom-0 text-left -translate-y-[25%] space-y-7 left-[8%] text-white bg-opacity-50 rounded-br-lg;
+  }
+  
+  .title {
+    @apply text-black text-3xl relative font-semibold italic;
+  }
+  
+  .spanTitle {
+    @apply not-italic text-2xl font-bold;
+  }
+  

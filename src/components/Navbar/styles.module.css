@@ -1,0 +1,12 @@
+.navbar {
+    @apply flex items-center p-4 bg-white border-b border-gray-200;
+  }
+  
+  .navbar_logo {
+    @apply w-10 h-10 mr-3;
+  }
+  
+  .navbar_title {
+    @apply text-lg font-bold;
+  }
+  

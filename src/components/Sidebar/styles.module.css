@@ -1,0 +1,53 @@
+
+.sidebar {
+    @apply w-64 bg-white border-r border-gray-200 h-screen flex flex-col pt-6;
+  }
+  
+
+  .sidebar_logo {
+    @apply p-4 flex items-center;
+  }
+  
+  .sidebar_logo img {
+    @apply w-10 h-10 mr-3;
+  }
+  
+  .sidebar_logo h2 {
+    @apply text-lg font-bold;
+  }
+  
+
+  .sidebar_nav {
+    @apply flex flex-col px-4 space-y-2;
+  }
+  
+
+  .sidebar_link {
+    @apply flex items-center py-2 text-gray-600 hover:bg-gray-100 rounded-md;
+  }
+  
+  .sidebar_link_icon {
+    @apply w-5 h-5 mr-2;
+  }
+  
+
+  .sidebar_button {
+    @apply flex items-center py-2 text-gray-600 hover:bg-gray-100 rounded-md w-full;
+  }
+  
+  .sidebar_button_icon {
+    @apply w-5 h-5 mr-2;
+  }
+  
+  .sidebar_button_chevron {
+    @apply ml-auto transform transition-transform;
+  }
+  
+  .sidebar_submenu {
+    @apply ml-3 border-l-2 border-dashed border-gray-300 pl-4;
+  }
+  
+  .sidebar_submenu_link {
+    @apply flex items-center py-2 text-gray-600 hover:bg-gray-100 rounded-md;
+  }
+  

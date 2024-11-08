@@ -1,0 +1,47 @@
+/* styles.module.css */
+
+.container {
+    @apply flex items-center justify-center min-h-screen bg-gray-50 ;
+  }
+  
+  .formWrapper {
+    @apply bg-white p-6 w-11/12  rounded-lg border border-gray-300 max-w-5xl;
+  }
+  
+  .header {
+    @apply flex justify-between items-center mb-5;
+  }
+  
+  .title {
+    @apply text-lg font-bold text-gray-700;
+  }
+  
+  .toggleButton {
+    @apply focus:outline-none;
+  }
+  
+  .form {
+    @apply w-10/12;
+  }
+  
+  .formContent {
+    @apply transition-all duration-500 ease-in-out overflow-hidden;
+  }
+  
+  .formSection {
+    @apply space-y-8;
+  }
+  
+  .gridLayout {
+    @apply grid grid-cols-2 gap-4;
+  }
+  
+  .flexRow {
+    @apply flex flex-row gap-2 items-end;
+  }
+  
+  .iconStyle {
+    @apply text-[35px] border text-gray-600 p-1 rounded;
+  }
+  
+ 

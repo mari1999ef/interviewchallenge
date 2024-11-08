@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+}
+
+@layer base {
+  html {
+    font-family: "YekanBakh";
+  }
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url("./assets/fonts/Inter_18pt-Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Thin';
+  src: local('Inter-Thin'), url("./assets/fonts/Inter_18pt-Thin.ttf") format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
