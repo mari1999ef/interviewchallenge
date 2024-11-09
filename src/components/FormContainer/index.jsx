@@ -1,11 +1,20 @@
-import React, { useState, useRef, useEffect } from 'react';
-import TextArea from '../TextArea';
-import InputField from '../InputField';
-import SelectField from '../SelectField';
-import DurationField from '../DurationField';
-import RadioGroup from '../RadioGroup';
-import { SlArrowDown, SlArrowUp } from 'react-icons/sl';
+import React, {
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
+
 import { PiNoteLight } from 'react-icons/pi';
+import {
+  SlArrowDown,
+  SlArrowUp,
+} from 'react-icons/sl';
+
+import DurationField from '../DurationField';
+import InputField from '../InputField';
+import RadioGroup from '../RadioGroup';
+import SelectField from '../SelectField';
+import TextArea from '../TextArea';
 import styles from './styles.module.css';
 
 function FormContainer() {
@@ -60,5 +69,7 @@ function FormContainer() {
     </div>
   );
 }
+
+
 
 export default FormContainer;

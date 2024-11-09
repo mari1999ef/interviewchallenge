@@ -1,5 +1,6 @@
-import React from 'react'
-import FormContainer from '../../components/formContainer'
+import React from 'react';
+
+import FormContainer from '../../components/FormContainer';
 
 export default function TestB() {
   return (
